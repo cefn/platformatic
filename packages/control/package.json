@@ -1,6 +1,6 @@
 {
   "name": "@platformatic/control",
-  "version": "2.0.0-alpha.8",
+  "version": "2.0.0-alpha.12",
   "description": "Platformatic Control",
   "main": "index.js",
   "bin": {
@@ -38,7 +38,7 @@
     "@platformatic/utils": "workspace:*",
     "commist": "^3.2.0",
     "help-me": "^5.0.0",
-    "pino": "^8.19.0",
+    "pino": "^9.0.0",
     "pino-pretty": "^11.0.0",
     "table": "^6.8.1",
     "undici": "^6.9.0",
