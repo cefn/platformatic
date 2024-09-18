@@ -1309,8 +1309,8 @@ importers:
         specifier: ^2.1.0
         version: 2.1.0
       fastify:
-        specifier: 5.0.0-alpha.4
-        version: 5.0.0-alpha.4
+        specifier: ^5.0.0
+        version: 5.0.0
       pino:
         specifier: ^9.0.0
         version: 9.4.0
@@ -3222,6 +3222,9 @@ packages:
 
   '@fastify/fast-json-stringify-compiler@4.3.0':
     resolution: {integrity: sha512-aZAXGYo6m22Fk1zZzEUKBvut/CIIQe/BapEORnxiD5Qr0kPHqqI69NtEMCme74h+at72sPhbkb4ZrLd1W3KRLA==}
+
+  '@fastify/fast-json-stringify-compiler@5.0.0':
+    resolution: {integrity: sha512-tywfuZfXsyxLC5kEqrMubbFa9vpAxNtuPE7j9w5si1r+6p5b981pDfZ5Y8HBqmjDQl+PABT7cV5jZgXI2j+I5g==}
 
   '@fastify/formbody@8.0.0':
     resolution: {integrity: sha512-iM9DLCwMnPx2gUu5HaPLylQox9ApPMFksf4Yw+1d2mWe7uvRDzg4/1BB1T19OjZK+UWZOQ7Q4o2FnoBQ973UMQ==}
@@ -5520,6 +5523,9 @@ packages:
 
   fastify-user@1.0.1:
     resolution: {integrity: sha512-1eON2baYZXG+kadJuGLW1VmZse1fWslMSBDmel3SOPD/QjWUWRtuk8mmHbPFHy74GL/U4YDwCdFulzYO2YkXIQ==}
+
+  fastify@5.0.0:
+    resolution: {integrity: sha512-Qe4dU+zGOzg7vXjw4EvcuyIbNnMwTmcuOhlOrOJsgwzvjEZmsM/IeHulgJk+r46STjdJS/ZJbxO8N70ODXDMEQ==}
 
   fastify@5.0.0-alpha.4:
     resolution: {integrity: sha512-g1+50I1uOP7HvIQQPonsI7TwVZdzuxoOjZlTwaOwW1EPt2PsSZ4GJE2fUpyKPqPastcQ8esQvyxqNcWAe5wR8g==}
@@ -10036,6 +10042,10 @@ snapshots:
     dependencies:
       fast-json-stringify: 5.16.1
 
+  '@fastify/fast-json-stringify-compiler@5.0.0':
+    dependencies:
+      fast-json-stringify: 6.0.0
+
   '@fastify/formbody@8.0.0':
     dependencies:
       fast-querystring: 1.1.2
@@ -12920,6 +12930,24 @@ snapshots:
       get-jwks: 9.0.2
     transitivePeerDependencies:
       - encoding
+
+  fastify@5.0.0:
+    dependencies:
+      '@fastify/ajv-compiler': 4.0.0
+      '@fastify/error': 4.0.0
+      '@fastify/fast-json-stringify-compiler': 5.0.0
+      abstract-logging: 2.0.1
+      avvio: 9.0.0
+      fast-json-stringify: 6.0.0
+      find-my-way: 9.0.0
+      light-my-request: 6.0.0
+      pino: 9.4.0
+      process-warning: 4.0.0
+      proxy-addr: 2.0.7
+      rfdc: 1.4.1
+      secure-json-parse: 2.7.0
+      semver: 7.6.3
+      toad-cache: 3.7.0
 
   fastify@5.0.0-alpha.4:
     dependencies:
