@@ -392,7 +392,7 @@ class BaseGenerator extends FileGenerator {
         ...this.config.dependencies,
       },
       engines: {
-        node: '^18.8.0 || >=20.6.0',
+        node: '^20.16.0 || >=22.3.0',
       },
     }
 
